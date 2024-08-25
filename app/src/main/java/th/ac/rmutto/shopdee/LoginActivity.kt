@@ -77,7 +77,7 @@ class LoginActivity : AppCompatActivity() {
 
                 if (status == "true") {
                     //Create shared preference to store user data
-                    /*
+
                     val sharedPrefer: SharedPreferences =
                         getSharedPreferences("appPrefer", Context.MODE_PRIVATE)
                     val editor: SharedPreferences.Editor = sharedPrefer.edit()
@@ -91,7 +91,7 @@ class LoginActivity : AppCompatActivity() {
                     editor.putString("usernamePref", username)
                     editor.putString("tokenPref", token)
                     editor.apply()
-                    */
+
 
                     //redirect to main page
                     val intent = Intent(this, MainActivity::class.java)

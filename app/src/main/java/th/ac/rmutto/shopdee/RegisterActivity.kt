@@ -80,6 +80,7 @@ class RegisterActivity : AppCompatActivity() {
                 .add("password",editTextPassword.text.toString())
                 .add("firstName",editTextFirstname.text.toString())
                 .add("lastName",editTextLastname.text.toString())
+
                 .build()
             val request: Request = Request.Builder()
                 .url(url)
